@@ -13,6 +13,7 @@
 		72C1B3A8271EA01F00685DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C1B3A6271EA01F00685DA0 /* Main.storyboard */; };
 		72C1B3AA271EA02200685DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C1B3A9271EA02200685DA0 /* Assets.xcassets */; };
 		72C1B3AD271EA02200685DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C1B3AB271EA02200685DA0 /* LaunchScreen.storyboard */; };
+		72C1B3B7271EB30100685DA0 /* BigImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C1B3B6271EB30100685DA0 /* BigImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		72C1B3A9271EA02200685DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72C1B3AC271EA02200685DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72C1B3AE271EA02200685DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C1B3B6271EB30100685DA0 /* BigImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				72C1B3A0271EA01F00685DA0 /* AppDelegate.swift */,
 				72C1B3A2271EA01F00685DA0 /* SceneDelegate.swift */,
 				72C1B3A4271EA01F00685DA0 /* ViewController.swift */,
+				72C1B3B6271EB30100685DA0 /* BigImageViewController.swift */,
 				72C1B3A6271EA01F00685DA0 /* Main.storyboard */,
 				72C1B3A9271EA02200685DA0 /* Assets.xcassets */,
 				72C1B3AB271EA02200685DA0 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				72C1B3A5271EA01F00685DA0 /* ViewController.swift in Sources */,
 				72C1B3A1271EA01F00685DA0 /* AppDelegate.swift in Sources */,
 				72C1B3A3271EA01F00685DA0 /* SceneDelegate.swift in Sources */,
+				72C1B3B7271EB30100685DA0 /* BigImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
