@@ -74,6 +74,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="nvV-MW-qqD">
                     <connections>
+                        <action selector="tapImage:" destination="BYZ-38-t0r" id="Kxv-zV-aea"/>
                         <segue destination="yWH-uh-1os" kind="show" id="fmz-EK-72W"/>
                     </connections>
                 </tapGestureRecognizer>

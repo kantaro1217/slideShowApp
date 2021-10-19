@@ -25,6 +25,13 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         let bigImageViewController: BigImageViewController = segue.destination as! BigImageViewController
         bigImageViewController.currentPos = self.currentPos
+        if timer != nil{
+            self.timer.invalidate()
+            self.timer = nil
+            proceedButton.isEnabled = true
+            backButton.isEnabled = true
+            startButton.setTitle("再生", for: .normal)
+        }else{}
     }
     
     @IBAction func proceed(_ sender: Any) {
