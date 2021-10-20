@@ -9,7 +9,7 @@ import UIKit
 
 class BigImageViewController: UIViewController {
     
-    let imageList = ["img1","img2","img3","img4"]
+    let imageList = ["img1.jpg","img2.jpg","img3.jpg","img4.jpg"]
     var currentPos: Int = 0
 
     @IBOutlet weak var bigImage: UIImageView!
